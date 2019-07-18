@@ -12,6 +12,7 @@
 
 
 #### 1. 我的代码
+思路： 遍历其中一个数组，在第二个数组中寻找元素，找到了就存进新数组，并删除第二个数组中的该元素
 ```javascript
 function intersect(nums1, nums2) {
         let same = [];
